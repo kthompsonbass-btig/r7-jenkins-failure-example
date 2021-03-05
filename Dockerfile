@@ -1,3 +1,3 @@
-FROM node:alpine
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 
-RUN apk update
+RUN apt-get update && apt-get upgrade
